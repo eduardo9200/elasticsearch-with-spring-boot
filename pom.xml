@@ -47,11 +47,6 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-		    <groupId>org.springframework.data</groupId>
-		    <artifactId>spring-data-elasticsearch</artifactId>
-		    <version>5.1.2</version>
-		</dependency>
-		<dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
 		</dependency>
@@ -60,6 +55,14 @@
 		    <artifactId>elasticsearch-rest-high-level-client</artifactId>
 		    <version>7.16.1</version>
 		</dependency>
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+	    <dependency>
+	        <groupId>org.springframework.boot</groupId>
+	        <artifactId>spring-boot-devtools</artifactId>
+	    </dependency>
 	</dependencies>
 
 	<build>
